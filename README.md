@@ -9,9 +9,13 @@ The application should do the following:
 •	Use a proper data structure to hold all these accounts
 
 •	Both savings and checking accounts share the following properties:
+  
   o	deposit()
+  
   o	withdraw()
+  
   o	transfer()
+  
   o	displayInfo()
   
 •	Generate a 11-digit account number base on the customer information and account type
@@ -21,7 +25,9 @@ The application should do the following:
 •	Checking accounts holder are assigned a Debit Card with a 12-digit number and 4-digit PIN
 
 •	Both accounts will use an interface that determines the base interest rate:
+  
   o	Savings accounts will use 0.25 points less than the base rate
+  
   o	Checking accounts will use 15% of the base rate
   
 •	The displayInfo method should reveal account information as well as information specific to the Checking account or Savings account.
