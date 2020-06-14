@@ -10,13 +10,13 @@ The application should do the following:
 
 •	Both savings and checking accounts share the following properties:
   
-  o	deposit()
+    o	deposit()
   
-  o	withdraw()
+    o	withdraw()
   
-  o	transfer()
+    o	transfer()
   
-  o	displayInfo()
+    o	displayInfo()
   
 •	Generate a 11-digit account number base on the customer information and account type
 
@@ -26,8 +26,8 @@ The application should do the following:
 
 •	Both accounts will use an interface that determines the base interest rate:
   
-  o	Savings accounts will use 0.25 points less than the base rate
+    o	Savings accounts will use 0.25 points less than the base rate
   
-  o	Checking accounts will use 15% of the base rate
+    o	Checking accounts will use 15% of the base rate
   
 •	The displayInfo method should reveal account information as well as information specific to the Checking account or Savings account.
